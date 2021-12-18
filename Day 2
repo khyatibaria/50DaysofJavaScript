@@ -1,0 +1,13 @@
+//Write a program to reverse a string.
+
+const str = "JavaScript is awesome";
+
+function reverseAString(str) {
+    // write your solution here
+    let reverseStr=str.split('');
+    reverseStr=reverseStr.reverse();
+    reverseStr=reverseStr.join('');
+    return reverseStr;
+}
+
+console.log(`Reversed string is: ${reverseAString(str)}`);
