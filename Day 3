@@ -6,7 +6,7 @@ function reverseGivenInteger(num) {
 
     let numtoStr=num.toString();
     let reverseNum=numtoStr.split('').reverse().join('');
-    return reverseNum;
+    return Number(reverseNum);
 }
 
 console.log(`Reversed integer is: ${reverseGivenInteger(num)}`);
